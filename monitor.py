@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 FAN_ON_MODE = 55  # (In celsius) The upper temperature threshold at which cooling is turned on.
 FAN_OFF_MODE = 40  # (In celsius) Lower temperature threshold at which cooling is turned off
 SLEEP_INTERVAL = 2  # (In seconds) Temperature Check Interval
-SLEEP_INTERVAL_FAN = 5  # (In seconds) Temperature Check Interval
+SLEEP_INTERVAL_FAN = 10  # (In seconds) Temperature Check Interval
 FAN_PIN = 21
 
 GPIO.setwarnings(False)
@@ -28,13 +28,11 @@ while True:
         temp = float(temp) * 1
         
         if(temp > FAN_ON_MODE):
-                 print('FAN ON')
-                 print(temp)
+                 print('FAN ON ' + str(temp))
                  GPIO.output(FAN_PIN, True)
                  time.sleep(SLEEP_INTERVAL_FAN)
         elif (temp > FAN_OFF_MODE):
-                 print('FAN OFF')
-                 print(temp)
+                 print('FAN OFF ' + str(temp))
                  GPIO.output(FAN_PIN, False)
                  time.sleep(SLEEP_INTERVAL)
                  continue

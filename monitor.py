@@ -11,7 +11,7 @@ FAN_PIN = 21
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(FAN_PIN, GPIO.OUT)    
-
+#https://www.element14.com/community/servlet/JiveServlet/downloadImage/102-92640-8-726998/GPIO-Pi4.png
 
 def measure_temp():
     res = os.popen('vcgencmd measure_temp').readline()

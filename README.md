@@ -25,6 +25,21 @@ FAN_PIN = 21 # GPIO порт.
 This script can be run either manually or added to cron
 >Данный скрипт можно запускать как вручную, так и добавить в крон (автозапуск)
 
+Necessary components:
+```
+Raspberry Pi 4 Model B
+5V fan
+680Ω resistor (in my case, it's just a LED)
+NPN transistor (2N2222)
+```
+
+Необходимые компоненты:
+```
+вентилятор 5V
+резистор 680Ом (в моем случае это просто сведодиод)
+NPN транзистор (2N2222)
+```
+
 You will also need to install separately in python 3, the GPIO module
 >Так же понадобится установить отдельно в питон 3,  модуль GPIO
 ```

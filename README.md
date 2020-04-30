@@ -22,7 +22,10 @@ SLEEP_INTERVAL_FAN = 20 # (в секундах) Интервал проверк�
 FAN_PIN = 21 # GPIO порт.
 ```
 
+This script can be run either manually or added to cron
+>Данный скрипт можно запускать как вручную, так и добавить в крон (автозапуск)
+
 ### Scheme
 > Общая схема
 
-![Montgo](https://github.com/blyamur/Control-Raspberry-Temperature-and-Fan/blob/master/img/image.jpg)
+![Scheme](https://github.com/blyamur/Control-Raspberry-Temperature-and-Fan/blob/master/img/image.jpg)

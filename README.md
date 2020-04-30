@@ -28,8 +28,13 @@ This script can be run either manually or added to cron
 You will also need to install separately in python 3, the GPIO module
 >Так же понадобится установить отдельно в питон 3,  модуль GPIO
 ```
-pip install GPIO
+pip install RPi.GPIO
 ```
+OR \ или
+```
+pip3 install RPi.GPIO
+```
+
 
 ### Scheme
 > Общая схема

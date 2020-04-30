@@ -25,7 +25,7 @@ FAN_PIN = 21 # GPIO порт.
 This script can be run either manually or added to cron
 >Данный скрипт можно запускать как вручную, так и добавить в крон (автозапуск)
 
-Necessary components:
+## Necessary components:
 ```
 Raspberry Pi 4 Model B
 5V fan
@@ -33,7 +33,7 @@ Raspberry Pi 4 Model B
 NPN transistor (2N2222)
 ```
 
-Необходимые компоненты:
+>Необходимые компоненты:
 ```
 вентилятор 5V
 резистор 680Ом (в моем случае это просто сведодиод)

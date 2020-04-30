@@ -25,7 +25,33 @@ FAN_PIN = 21 # GPIO порт.
 This script can be run either manually or added to cron
 >Данный скрипт можно запускать как вручную, так и добавить в крон (автозапуск)
 
+You will also need to install separately in python 3, the GPIO module
+>Так же понадобится установить отдельно в питон 3,  модуль GPIO
+```
+pip install GPIO
+```
+
 ### Scheme
 > Общая схема
 
 ![Scheme](https://github.com/blyamur/Control-Raspberry-Temperature-and-Fan/blob/master/img/image.jpg)
+
+### Copyrights and Licenses
+Not for commercial use.
+
+© 2020  [Mons](https://blog.mons.ws)
+
+
+### Did you find this useful?!
+> Вы нашли это  полезным ?!
+
+Happy to hear that :) *If You want to help me, you can support me on [PayPal](https://paypal.me/enkonu)*
+
+> Рад это слышать :) Если вы хотите мне помочь, вы можете поддержать меня материально
+
+
+
+*Thanks for reading :heart_eyes_cat:*
+> Спасибо за чтение!
+
+~Mons

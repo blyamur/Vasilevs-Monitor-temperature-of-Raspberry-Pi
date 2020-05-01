@@ -27,7 +27,7 @@ This script can be run either manually or added to cron
 
 ### Necessary components:
 ```
-Raspberry Pi 4 Model B
+Raspberry Pi 4 Model B (or analog)
 5V fan
 680Ω resistor (in my case, it's just a LED)
 NPN transistor (2N2222)
@@ -35,6 +35,7 @@ NPN transistor (2N2222)
 
 >Необходимые компоненты:
 ```
+Raspberry Pi 4 Model B (или аналог)
 вентилятор 5V
 резистор 680Ом (в моем случае это просто сведодиод)
 NPN транзистор (2N2222)

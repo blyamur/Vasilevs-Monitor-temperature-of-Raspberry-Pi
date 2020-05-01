@@ -42,7 +42,7 @@ NPN транзистор (2N2222)
 ```
 
 You will also need to install separately in python 3, the GPIO module
->Так же понадобится установить отдельно в питон 3,  модуль GPIO
+>Так же понадобится установить отдельно в Python3,  модуль GPIO
 ```
 pip install RPi.GPIO
 ```

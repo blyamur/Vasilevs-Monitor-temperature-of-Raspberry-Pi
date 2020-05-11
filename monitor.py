@@ -6,7 +6,7 @@ FAN_ON_MODE = 55  # (In celsius) The upper temperature threshold at which coolin
 FAN_OFF_MODE = 40  # (In celsius) Lower temperature threshold at which cooling is turned off
 SLEEP_INTERVAL = 2  # (In seconds) Temperature Check Interval
 SLEEP_INTERVAL_FAN = 20  # (In seconds) Temperature Check Interval
-FAN_PIN = 21 # GPIO port.
+FAN_PIN = 21 # Used GPIO port.
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -18,8 +18,6 @@ def measure_temp():
 
     temp=int(float(getCPUtemperature()))
     return float(temp)
-
-
 
 while True:
         #print(measure_temp())

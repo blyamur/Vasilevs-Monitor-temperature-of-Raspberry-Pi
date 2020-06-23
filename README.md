@@ -13,7 +13,7 @@ SLEEP_INTERVAL = 2 # (In seconds) Temperature Check Interval
 SLEEP_INTERVAL_FAN = 10 # (In seconds) Temperature Check Interval
 FAN_PIN = 21 # GPIO port.
 ```
->В скрипте можно вручную задать параметры:
+>В скрипте можно вручную задать следующие параметры:
 ```
 FAN_ON_MODE = 55 # (в градусах Цельсия) Верхний температурный порог, при котором включается охлаждение.
 FAN_OFF_MODE = 40 # (в градусах Цельсия) Нижний температурный порог, при котором охлаждение отключено

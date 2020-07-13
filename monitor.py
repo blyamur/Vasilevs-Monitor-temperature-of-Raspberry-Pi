@@ -26,12 +26,12 @@ while True:
         
         if(temp > FAN_ON_MODE):
                  print('FAN ON ' + str(temp))
-                 os.system("cls|clear")
+                 os.system('cls||clear')
                  GPIO.output(FAN_PIN, True)
                  time.sleep(SLEEP_INTERVAL_FAN)
         elif (temp > FAN_OFF_MODE):
                  print('FAN OFF ' + str(temp))
-                 os.system("cls|clear")
+                 os.system('cls||clear')
                  GPIO.output(FAN_PIN, False)
                  time.sleep(SLEEP_INTERVAL)
                  continue

@@ -1,4 +1,4 @@
-# Control-Raspberry-Temperature-and-Fan
+# Control Raspberry Temperature and Fan
 The script on python 3, to monitor the temperature of Raspberry Pi 4 and automatically turn on the cooling fan
 > Скрипт на python 3, для мониторинга температуры Raspberry Pi 4 и автоматического включения вентилятора охлаждения
 

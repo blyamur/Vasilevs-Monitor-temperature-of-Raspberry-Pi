@@ -60,7 +60,7 @@ pip3 install RPi.GPIO
 ### Copyrights and Licenses
 Not for commercial use.
 
-2022  [Mons](https://blog.mons.ws)
+2022  Mons
 
 
 

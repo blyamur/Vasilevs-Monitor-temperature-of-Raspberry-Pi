@@ -1,7 +1,10 @@
 import os
 import time
 import RPi.GPIO as GPIO
-__author__ = "Mons (https://blog.mons.ws)"
+
+#FromRussiaWithLove | Mons (https://github.com/blyamur/Vasilevs-Monitor-temperature-of-Raspberry-Pi)  | "non-commercial use only, for personal use
+
+
 FAN_ON_MODE = 55  # (In celsius) The upper temperature threshold at which cooling is turned on.
 FAN_OFF_MODE = 40  # (In celsius) Lower temperature threshold at which cooling is turned off
 SLEEP_INTERVAL = 2  # (In seconds) Temperature Check Interval
